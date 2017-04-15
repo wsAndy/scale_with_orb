@@ -1,0 +1,2 @@
+/home/sheng/scale_with_orb/build/CMakeFiles/scale.dir
+/home/sheng/scale_with_orb/build/CMakeFiles/scale_orb_lib.dir
