@@ -20,8 +20,8 @@ int main(int argc, char **argv)
 
     Feature f1,f2;
 
-    f1 = test.getFeature(img1,"ORB","ORB");
-    f2 = test.getFeature(img2,"ORB","ORB"); // BRISK & FREAK not perform well
+    f1 = test.getFeature(img1,"FAST","BRIEF");
+    f2 = test.getFeature(img2,"FAST","BRIEF"); // BRISK & FREAK not perform well
 
     cout << f1.dp.size() <<endl; //  [32x500] in ORB
     cout << f2.dp.size() <<endl; //  [32x500] in ORB
@@ -32,10 +32,10 @@ int main(int argc, char **argv)
     std::vector<cv::DMatch> matches;
     matches = test.getMatch(f1,f2,"FlannBased",3);
 
-//    Mat drawImg;
-//    drawMatches(f1.img,f1.kp,f2.img,f2.kp, matches,drawImg,Scalar(0,255,0),Scalar(255,0,0),vector<char>(), DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS );
-//    imshow("match",drawImg);
-//    waitKey(0);
+    Mat drawImg;
+    drawMatches(f1.img,f1.kp,f2.img,f2.kp, matches,drawImg,Scalar(0,255,0),Scalar(255,0,0),vector<char>(), DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS );
+    imshow("match",drawImg);
+    waitKey(0);
 
     // the framework is OK, then add multi scale and show different result.
 

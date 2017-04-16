@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sheng/scale_with_orb
+CMAKE_SOURCE_DIR = /home/sheng/scale_with_orb/scale_with_orb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sheng/scale_with_orb/build
+CMAKE_BINARY_DIR = /home/sheng/scale_with_orb/scale_with_orb/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/scale.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/sheng/scale_with_orb/build
 CMakeFiles/scale.dir/all: CMakeFiles/scale_orb_lib.dir/all
 	$(MAKE) -f CMakeFiles/scale.dir/build.make CMakeFiles/scale.dir/depend
 	$(MAKE) -f CMakeFiles/scale.dir/build.make CMakeFiles/scale.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sheng/scale_with_orb/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sheng/scale_with_orb/scale_with_orb/build/CMakeFiles  1
 	@echo "Built target scale"
 .PHONY : CMakeFiles/scale.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/scale.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/scale.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sheng/scale_with_orb/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sheng/scale_with_orb/scale_with_orb/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/scale.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sheng/scale_with_orb/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sheng/scale_with_orb/scale_with_orb/build/CMakeFiles 0
 .PHONY : CMakeFiles/scale.dir/rule
 
 # Convenience name for target.
@@ -97,7 +97,7 @@ clean: CMakeFiles/scale.dir/clean
 CMakeFiles/scale_orb_lib.dir/all:
 	$(MAKE) -f CMakeFiles/scale_orb_lib.dir/build.make CMakeFiles/scale_orb_lib.dir/depend
 	$(MAKE) -f CMakeFiles/scale_orb_lib.dir/build.make CMakeFiles/scale_orb_lib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/sheng/scale_with_orb/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/sheng/scale_with_orb/scale_with_orb/build/CMakeFiles  2
 	@echo "Built target scale_orb_lib"
 .PHONY : CMakeFiles/scale_orb_lib.dir/all
 
@@ -107,9 +107,9 @@ all: CMakeFiles/scale_orb_lib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/scale_orb_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sheng/scale_with_orb/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sheng/scale_with_orb/scale_with_orb/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/scale_orb_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sheng/scale_with_orb/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sheng/scale_with_orb/scale_with_orb/build/CMakeFiles 0
 .PHONY : CMakeFiles/scale_orb_lib.dir/rule
 
 # Convenience name for target.
